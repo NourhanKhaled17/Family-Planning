@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.familyplan">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FamilyPlan"
+        tools:targetApi="31">
+        <activity
+            android:name=".surgical_family"
+            android:exported="false" />
+        <activity
+            android:name=".copper"
+            android:exported="false" />
+        <activity
+            android:name=".Male_condom"
+            android:exported="false" />
+        <activity
+            android:name=".Vaginal"
+            android:exported="false" />
+        <activity
+            android:name=".Hormonal"
+            android:exported="false" />
+        <activity
+            android:name=".Patch"
+            android:exported="false" />
+        <activity
+            android:name=".Implant"
+            android:exported="false" />
+        <activity
+            android:name=".Injection"
+            android:exported="false" />
+        <activity
+            android:name=".Pill"
+            android:exported="false" />
+        <activity
+            android:name=".Select"
+            android:exported="false" />
+        <activity
+            android:name=".Vignal"
+            android:exported="false" />
+        <activity
+            android:name=".Qus_Choose"
+            android:exported="false" />
+        <activity
+            android:name=".FQA"
+            android:exported="false" />
+        <activity
+            android:name=".Meathods"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".contraceptives"
+            android:exported="false" />
+        <activity
+            android:name=".Birth_Control"
+            android:exported="false" />
+        <activity
+            android:name=".Start"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

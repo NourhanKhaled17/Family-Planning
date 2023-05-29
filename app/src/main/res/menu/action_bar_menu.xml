@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/question"
+        android:title="Question_mark"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/question_circle" />
+     <item
+         android:id="@+id/home"
+         android:title="Home"
+         app:showAsAction="collapseActionView"
+         android:icon="@drawable/baseline_home_24"/>
+
+
+    <item
+    android:id="@+id/birth_control"
+    android:title="What birth control is best ?"
+    app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/general_info"
+        android:title="General info about contraceptives"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/method_works"
+        android:title="How each method works"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/method_chooser"
+        android:title="Method Chooser questionnaire"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/faq"
+        android:title="FAQs"
+        app:showAsAction="collapseActionView"/>
+
+
+</menu>
